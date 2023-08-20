@@ -1,0 +1,104 @@
+{
+  "e621.net": {
+    "domain": "e621.net",
+    "aliases": [
+      "e6",
+      "e621"
+    ],
+  "e926.net": {
+    "domain": "e926.net",
+    "aliases": [
+      "e9",
+      "e926"
+    ]
+  "hypnohub.net": {
+    "domain": "hypnohub.net",
+    "aliases": [
+      "hh",
+      "hypno",
+      "hypnohub"
+    ],
+  "danbooru.donmai.us": {
+    "domain": "danbooru.donmai.us",
+    "aliases": [
+      "db",
+      "dan",
+      "danbooru"
+    ],
+  "konachan.com": {
+    "domain": "konachan.com",
+    "aliases": [
+      "kc",
+      "konac",
+      "kcom"
+    ],
+  "konachan.net": {
+    "domain": "konachan.net",
+    "aliases": [
+      "kn",
+      "konan",
+      "knet"
+    ],
+  "yande.re": {
+    "domain": "yande.re",
+    "aliases": [
+      "yd",
+      "yand",
+      "yandere"
+    ],
+  "gelbooru.com": {
+    "domain": "gelbooru.com",
+    "aliases": [
+      "gb",
+      "gel",
+      "gelbooru"
+    ],
+  "rule34.xxx": {
+    "domain": "api.rule34.xxx",
+    "aliases": [
+      "r34",
+      "rule34"
+    ],
+  "safebooru.org": {
+    "domain": "safebooru.org",
+    "aliases": [
+      "sb",
+      "safe",
+      "safebooru"
+    ],
+  "tbib.org": {
+    "domain": "tbib.org",
+    "aliases": [
+      "tb",
+      "tbib",
+      "big"
+    ],
+  "xbooru.com": {
+    "domain": "xbooru.com",
+    "aliases": [
+      "xb",
+      "xbooru"
+    ],
+  "rule34.paheal.net": {
+    "domain": "rule34.paheal.net",
+    "type": "xml",
+    "aliases": [
+      "pa",
+      "paheal"
+    ],
+  "derpibooru.org": {
+    "domain": "derpibooru.org",
+    "type": "derpi",
+    "aliases": [
+      "dp",
+      "derp",
+      "derpi",
+      "derpibooru"
+    ],
+  "realbooru.com": {
+    "domain": "realbooru.com",
+    "aliases": [
+      "rb",
+      "realbooru"
+    ],
+}
