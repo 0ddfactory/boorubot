@@ -8,21 +8,21 @@ Boorubot is a bot that pulls from various booru sites and posts them to a mastod
 # Account/Key Generation
 Firstly you'll need to create an account for boorubot on your instance and mark the account as a bot in Settings > Profile (and suggest account to others if needed)
 
-![image](https://github.com/0ddfactory/boorubot/assets/25939455/87467b08-8d99-4a9b-8ed1-092b3cb6fb71)
+![image](https://github.com/0ddfactory/boorubot/assets/25939455/f10b5d1f-bfd5-471e-b591-f6386f84bdfa)
 
 Next go to Settings > Development and create a new application as shown below.
 
-![newapp](https://github.com/0ddfactory/boorubot/assets/25939455/5ac4d418-c1aa-457d-8b8f-2101e7b76b95)
+![newapp](https://github.com/0ddfactory/boorubot/assets/25939455/a3f36152-f604-4e09-b2f1-ba9a0610bef6)
 
 Enter a name and submit (you can leave permissions as default read/write).
 
-![Pasted image](https://github.com/0ddfactory/boorubot/assets/25939455/ca4cc099-815a-45c4-a205-52a285670137)
+![Pasted image](https://github.com/0ddfactory/boorubot/assets/25939455/8a324909-72e2-414a-83c4-393a991f5e75)
 
-Click on the name of the application you previously submitted and take note of the three values as you will need them later (Client key, Client secret, Your access token).
+Click on the name of the application you previously submitted and take note of the three values as you will need them later (Client key, Client secret, Your access token):
 
-![token](https://github.com/0ddfactory/boorubot/assets/25939455/b309b87a-a323-4361-9654-d3f74fd35c0c)
+![token](https://github.com/0ddfactory/boorubot/assets/25939455/ad1c9a64-09e2-4e29-aa09-e13eb2dba0f2)
 
-And you're done! Your account is now ready to post from 
+And you're done! Your account is now ready for the bot to access.
 
 # Installation/Configuration
 Clone the repository to your server us git and enter the project directory.
