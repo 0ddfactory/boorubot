@@ -57,6 +57,22 @@ const site = 'gelbooru';
 const tags = [''];
 ```
 
+You may add multiple tags like so:
+
+```
+const tags = ['1', '2', '3']
+```
+
+By default adding multiple tags will search for a single image containing all tags added to the tags array.
+
+In some cases we may only want an image containing one of the tags at random each time the bot posts.
+
+To enable this behavior and choose a random tag you've configured each time the bot searches you may change 'tags' on line 31 to 'randomtag' like so:
+
+```
+const post = await Booru.search(site, randomtag, {limit: 1, random: true}) 
+```
+
 Posting intervals are also configurable on line 25 with the default being 60 * 60000 with 60000 being 1 minute and 60 minutes being 1 hour.
 You may change this as needed and may add another integer to multiply the hours like so:
 
