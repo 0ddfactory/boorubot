@@ -8,7 +8,7 @@ const fs = require('fs');
 const https = require('https');
 const site = 'gelbooru';
 const tags = ['']; //searches for posts containing all tags added here ex. ['1', '2', '3'] (to randomly search only one tag at a time change 'tags' on line 31 to 'randomtag'.
-const randomtag = randomtag[Math.floor(randomtag.length * Math.random())]; //calls a random tag from the tags array
+const randomtag = tags[Math.floor(tagstag.length * Math.random())]; //calls a random tag from the tags array
 
 console.log("boorubot starting...");
 
