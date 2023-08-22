@@ -7,7 +7,7 @@ const Axios = require('axios');
 const fs = require('fs');
 const https = require('https');
 const site = 'gelbooru';
-const tags = ['']; //searches for posts containing all tags added here ex. ['1', '2', '3'] (to randomly search only one tag at a time change 'tags' on line 31 to 'randomtag'.
+const tags = ['']; 
 
 
 console.log("boorubot starting...");
@@ -28,9 +28,12 @@ setInterval(Post, 60 * 60000);
 
 async function Post()  
 {
-	var randomtag = tags[Math.floor(tagstag.length * Math.random())]; //calls a random tag from the tags array
+	//calls a random tag from the tags array
+	var randomtag = tags[Math.floor(tagstag.length * Math.random())]; 
 	//console.log(randomtag); //uncomment to print selected tag to console on each loop.
-	const post = await Booru.search(site, tags, {limit: 1, random: true}) //change tags to randomtag for a random tag called from the tags array
+	
+	//change tags to randomtag for a random tag called from the tags array
+	const post = await Booru.search(site, tags, {limit: 1, random: true}) 
 	.then(posts => {
 	for (let post of posts){
 		url = post.fileUrl;
