@@ -29,7 +29,7 @@ setInterval(Post, 60 * 60000);
 async function Post()  
 {
 	//calls a random tag from the tags array
-	var randomtag = tags[Math.floor(tagstag.length * Math.random())]; 
+	var randomtag = tags[Math.floor(tags.length * Math.random())]; 
 	//console.log(randomtag); //uncomment to print selected tag to console on each loop.
 	
 	//change tags to randomtag for a random tag called from the tags array
