@@ -49,11 +49,11 @@ API_URL=https://(yourdomain)/api/V1/
 ```
 
 You can now set your choice of booru to pull images from as well as tags to search. 
-The default is gelbooru but you can find a list of supported boorus in sites.json as well as their aliases. 
+The default is danbooru but you can find a list of supported boorus in sites.json as well as their aliases. 
 This value can be set by editing the site and tags values near the top of the document on lines 9 & 10:
 
 ```
-const site = 'gelbooru';
+const site = 'danbooru';
 const tags = [''];
 ```
 
