@@ -57,7 +57,7 @@ const site = 'danbooru';
 const tags = [''];
 ```
 
-You may add multiple tags like so:
+You may add multiple tags like so (danbooru does not support multiple tags for free so you must either change booru or enable the randomtag feature as outlined in the next section):
 
 ```
 const tags = ['1', '2', '3']
