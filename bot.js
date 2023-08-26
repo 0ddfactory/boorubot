@@ -6,7 +6,7 @@ const Booru = require('booru');
 const Axios = require('axios');
 const fs = require('fs');
 const https = require('https');
-const site = 'gelbooru';
+const site = 'danbooru';
 const tags = ['']; 
 
 
@@ -60,7 +60,7 @@ async function Post()
        	   	method: 'GET',
        	 	responseType: 'stream'
     	});
-    return new Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => {
        		response.data.pipe(fs.createWriteStream(name))
        		.on('error', reject)
       		.once('close', () => resolve(name)); 
